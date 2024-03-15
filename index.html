@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Delivery application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pizza Delivery application</h1>
+        <form id="orderForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="pizza">Pizza:</label>
+            <select id="pizza" name="pizza" required>
+                <option value="Margherita">Margherita</option>
+                <option value="Pepperoni">Pepperoni</option>
+                <option value="Vegetarian">Vegetarian</option>
+            </select>
+            <button type="submit">Place Order</button>
+        </form>
+        <p id="message"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
